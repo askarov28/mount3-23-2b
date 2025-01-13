@@ -14,4 +14,4 @@ async def news (message:types.Message):
             await message.answer("Новостей не найдино ")  
 
     except Exception as e:
-        logging.error(f"Ошибка ")       
+          
